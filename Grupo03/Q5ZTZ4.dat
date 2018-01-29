@@ -1,0 +1,83 @@
+ID   Q5ZTZ4_LEGPH            Unreviewed;       231 AA.
+AC   Q5ZTZ4;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   20-DEC-2017, entry version 73.
+DE   RecName: Full=Pyridoxal phosphate homeostasis protein {ECO:0000256|HAMAP-Rule:MF_02087};
+DE            Short=PLP homeostasis protein {ECO:0000256|HAMAP-Rule:MF_02087};
+GN   OrderedLocusNames=lpg2014 {ECO:0000313|EMBL:AAU28083.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 /
+OS   ATCC 33152 / DSM 7513).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU28083.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU28083.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M.,
+RA   Asamani G., Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J.,
+RA   Steshenko V., Park S.H., Zhao B., Teplitskaya E., Edwards J.R.,
+RA   Pampou S., Georghiou A., Chou I.C., Iannuccilli W., Ulz M.E.,
+RA   Kim D.H., Geringer-Sameth A., Goldsberry C., Morozov P., Fischer S.G.,
+RA   Segal G., Qu X., Rzhetsky A., Zhang P., Cayanis E., De Jong P.J.,
+RA   Ju J., Kalachikov S., Shuman H.A., Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella
+RT   pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Pyridoxal 5'-phosphate (PLP)-binding protein, which is
+CC       involved in PLP homeostasis. {ECO:0000256|HAMAP-Rule:MF_02087}.
+CC   -!- COFACTOR:
+CC       Name=pyridoxal 5'-phosphate; Xref=ChEBI:CHEBI:597326;
+CC         Evidence={ECO:0000256|PIRSR:PIRSR004848-1};
+CC   -!- SIMILARITY: Belongs to the pyridoxal phosphate-binding protein
+CC       YggS/PROSC family. {ECO:0000256|HAMAP-Rule:MF_02087,
+CC       ECO:0000256|RuleBase:RU004514}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28083.1; -; Genomic_DNA.
+DR   RefSeq; WP_010947730.1; NC_002942.5.
+DR   RefSeq; YP_096030.1; NC_002942.5.
+DR   ProteinModelPortal; Q5ZTZ4; -.
+DR   STRING; 272624.lpg2014; -.
+DR   PaxDb; Q5ZTZ4; -.
+DR   EnsemblBacteria; AAU28083; AAU28083; lpg2014.
+DR   GeneID; 19833580; -.
+DR   KEGG; lpn:lpg2014; -.
+DR   PATRIC; fig|272624.6.peg.2109; -.
+DR   eggNOG; ENOG4105DFA; Bacteria.
+DR   eggNOG; COG0325; LUCA.
+DR   HOGENOM; HOG000048983; -.
+DR   KO; K06997; -.
+DR   OMA; KLMAVPN; -.
+DR   Proteomes; UP000000609; Chromosome.
+DR   Gene3D; 3.20.20.10; -; 1.
+DR   HAMAP; MF_02087; PLP_homeostasis; 1.
+DR   InterPro; IPR001608; Ala_racemase_N.
+DR   InterPro; IPR029066; PLP-binding_barrel.
+DR   InterPro; IPR011078; PyrdxlP_homeostasis.
+DR   PANTHER; PTHR10146; PTHR10146; 1.
+DR   Pfam; PF01168; Ala_racemase_N; 1.
+DR   PIRSF; PIRSF004848; YBL036c_PLPDEIII; 1.
+DR   SUPFAM; SSF51419; SSF51419; 1.
+DR   TIGRFAMs; TIGR00044; TIGR00044; 1.
+DR   PROSITE; PS01211; UPF0001; 1.
+PE   3: Inferred from homology;
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Pyridoxal phosphate {ECO:0000256|HAMAP-Rule:MF_02087,
+KW   ECO:0000256|PIRSR:PIRSR004848-1};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609}.
+FT   DOMAIN        5    226       Ala_racemase_N.
+FT                                {ECO:0000259|Pfam:PF01168}.
+FT   MOD_RES      35     35       N6-(pyridoxal phosphate)lysine.
+FT                                {ECO:0000256|HAMAP-Rule:MF_02087,
+FT                                ECO:0000256|PIRSR:PIRSR004848-1}.
+SQ   SEQUENCE   231 AA;  26165 MW;  0C7E7C4122699013 CRC64;
+     MSISQNINKV RELITQTESS SNRQPNSVLL LAVSKEQSPE LIREAFQQGI RHFGENYFQE
+     AQEKILALRD LPICWHFIGP IQSNKTKGIA KYFNWVHSID RNKTAKLLNQ FRSEQLPPLN
+     VCLQINLTGE TTKSGIPPEH AIDLALEVKQ LPNLQLRGLM TIPPQQNNMQ TQYNLFLKLN
+     QLKESINKAL HLKMDTLSMG MSDDLVPAIK AGSTIVRIGR AIFGERKGKL L
+//

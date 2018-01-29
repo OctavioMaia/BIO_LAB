@@ -1,0 +1,103 @@
+LOCUS       NC_002942               1255 bp    DNA     linear   CON 11-JAN-2017
+DEFINITION  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            chromosome, complete genome.
+ACCESSION   NC_002942
+VERSION     NC_002942.5
+DBLINK      BioProject: PRJNA57609
+            Assembly: GCF_000008485.1
+KEYWORDS    RefSeq.
+SOURCE      Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+  ORGANISM  Legionella pneumophila subsp. pneumophila str. Philadelphia 1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+            Legionellaceae; Legionella.
+REFERENCE   1  (bases 1 to 1255)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     The genomic sequence of the accidental pathogen Legionella
+            pneumophila
+  JOURNAL   Science 305 (5692), 1966-1968 (2004)
+   PUBMED   15448271
+REFERENCE   2  (bases 1 to 1255)
+  AUTHORS   Chien,M., Morozova,I., Shi,S., Sheng,H., Chen,J., Gomez,S.M.,
+            Asamani,G., Hill,K., Nuara,J., Feder,M., Rineer,J., Greenberg,J.J.,
+            Steshenko,V., Park,S.H., Zhao,B., Teplitskaya,E., Edwards,J.R.,
+            Pampou,S., Georghiou,A., Chou,I.-C., Iannuccilli,W., Ulz,M.E.,
+            Kim,D.H., Geringer-Sameth,A., Goldsberry,C., Morozov,P.,
+            Fischer,S.G., Segal,G., Qu,X., Rzhetsky,A., Zhang,P., Cayanis,E., De
+            Jong,P.J., Ju,J., Kalachikov,S., Shuman,H.A. and Russo,J.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2004) Columbia Genome Center, Columbia University,
+            1150 St. Nicholas Ave., New York, NY 10032, USA
+REFERENCE   3  (bases 1 to 1255)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-APR-2002) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AE017354.
+            On Sep 29, 2004 this sequence version replaced NC_002942.4.
+            RefSeq Category: Reference Genome
+            COM: Community Selected
+            TYS: Designated Type Strain
+            UPR: UniProt Genome
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1255
+                     /organism="Legionella pneumophila subsp. pneumophila str.
+                     Philadelphia 1"
+                     /mol_type="genomic DNA"
+                     /strain="Philadelphia 1"
+                     /sub_species="pneumophila"
+                     /db_xref="taxon:272624"
+     gene            complement(2..1255)
+                     /gene="proA"
+                     /locus_tag="lpg1609"
+                     /db_xref="GeneID:19833174"
+     CDS             complement(2..1255)
+                     /gene="proA"
+                     /locus_tag="lpg1609"
+                     /EC_number="1.2.1.41"
+                     /function="Amino Acid Metabolism"
+                     /note="Catalyzes the phosphorylation of L-glutamate during
+                     the proline biosynthesis pathway"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="gamma-glutamyl phosphate reductase"
+                     /protein_id="YP_095636.1"
+                     /db_xref="GeneID:19833174"
+                     /translation="MNTNIANQLRAAKKATTDLNLIQSDTRTIILKTLAANLEKHIENI
+                     IQENQKDLSLMLEQDPRYDRLLLNKERILSLVNDVRKVANLPNPLGVNLFEKSMPNGLS
+                     IKKITVPLGVIAVIYESRPNVTIDIFSLCFKSGNVCILKGGKEAHFTNSYLLLLIKNTL
+                     KNFNINTDIVCLLPPERALMTQLLNATGLVDLCIPRGSQNLINFVRDNAKIPVIETGAG
+                     IVHTYFDKSGDLGKGKKIINNAKTRRVSVCNALDTLIIHADRLKDLPELVETLSQKNVI
+                     IYADQDAYHVLDKNYPEQLLIKAKPQDFGHEFLDYKLAIKTVPNIKAAIDHIQQFSSHH
+                     SEAVIAEDESAIDKFLTEVDAAAVYANASTAFTDGGEFGLGAEIGISTQKVHARGPMGL
+                     EALTSYKWVIRGTGQIRD"
+ORIGIN
+        1 ctcaatctct aatttgtccc gtccctctta tcacccattt gtagcttgtt aaagcctcta
+       61 gtcccatggg tcctcttgca tgaacttttt gcgtactaat tccaatttca gcccctaatc
+      121 cgaattcccc gccatctgta aacgcagtag aagcgttggc atagacagct gctgcatcca
+      181 cttcagttag aaatttatca attgcagact catcttctgc aataacagcc tcactatgat
+      241 gggaactgaa ttgttgaata tgatcaatag ctgcttttat attgggtact gtttttattg
+      301 ctaatttata gtctagaaat tcatggccaa agtcttgtgg ttttgcctta attaaaagtt
+      361 gttcaggata attcttatct aaaacatgat atgcatcctg gtcggcatag ataatcacat
+      421 tcttttgaga caaggtctcc acaagttctg gcaaatcttt taaacgatca gcatgaataa
+      481 tcaaagtatc cagcgcattg caaacactta ctcttctggt tttagcattg ttaataattt
+      541 ttttaccttt tcccaaatct ccacttttat caaaataggt atgcacgata cctgcccctg
+      601 tttcaatgac aggtattttg gcattgtctc tgacaaaatt tattaaattc tggctccctc
+      661 ttggaatgca taaatcaaca agacctgtgg catttaataa ttgagtcatc aatgctcttt
+      721 ctggtggtaa taaacaaaca atatctgtgt ttatattaaa attctttaat gtatttttaa
+      781 ttaataaaag cagataactg ttagtaaaat gtgcttcttt tccacctttt aaaatacaaa
+      841 cgtttccaga tttaaagcat aggctgaata tatcaatagt tacattaggt cttgactcat
+      901 aaatgactgc gatgacacct aaaggtactg tgattttctt aatactcaaa ccatttggca
+      961 ttgatttttc aaagagatta actcctaatg ggttaggtaa attggctact tttctcacat
+     1021 cattcaccaa tgacaaaatt ctctctttat ttaacaataa acgatcatat ctgggatctt
+     1081 gctcaagcat taaacttaaa tctttttgat tttcttgtat tatgttttca atgtgcttct
+     1141 ctaaattagc cgctaatgtt ttcaaaatta ttgttcgggt atcactttgt attaagttaa
+     1201 gatcagtagt tgctttttta gcggccctta attggttagc aatattagta ttcat
+//

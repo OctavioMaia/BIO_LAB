@@ -1,0 +1,125 @@
+ID   Q5ZV32_LEGPH            Unreviewed;       356 AA.
+AC   Q5ZV32;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   22-NOV-2017, entry version 103.
+DE   RecName: Full=Glutamate 5-kinase {ECO:0000256|HAMAP-Rule:MF_00456};
+DE            EC=2.7.2.11 {ECO:0000256|HAMAP-Rule:MF_00456};
+DE   AltName: Full=Gamma-glutamyl kinase {ECO:0000256|HAMAP-Rule:MF_00456};
+DE            Short=GK {ECO:0000256|HAMAP-Rule:MF_00456};
+GN   Name=proB {ECO:0000256|HAMAP-Rule:MF_00456,
+GN   ECO:0000313|EMBL:AAU27690.1};
+GN   OrderedLocusNames=lpg1610 {ECO:0000313|EMBL:AAU27690.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 /
+OS   ATCC 33152 / DSM 7513).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU27690.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU27690.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M.,
+RA   Asamani G., Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J.,
+RA   Steshenko V., Park S.H., Zhao B., Teplitskaya E., Edwards J.R.,
+RA   Pampou S., Georghiou A., Chou I.C., Iannuccilli W., Ulz M.E.,
+RA   Kim D.H., Geringer-Sameth A., Goldsberry C., Morozov P., Fischer S.G.,
+RA   Segal G., Qu X., Rzhetsky A., Zhang P., Cayanis E., De Jong P.J.,
+RA   Ju J., Kalachikov S., Shuman H.A., Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella
+RT   pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Catalyzes the transfer of a phosphate group to glutamate
+CC       to form L-glutamate 5-phosphate. {ECO:0000256|HAMAP-
+CC       Rule:MF_00456}.
+CC   -!- CATALYTIC ACTIVITY: ATP + L-glutamate = ADP + L-glutamate 5-
+CC       phosphate. {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-
+CC       glutamate 5-semialdehyde from L-glutamate: step 1/2.
+CC       {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00456,
+CC       ECO:0000256|SAAS:SAAS00644446}.
+CC   -!- SIMILARITY: Belongs to the glutamate 5-kinase family.
+CC       {ECO:0000256|HAMAP-Rule:MF_00456, ECO:0000256|SAAS:SAAS00644448}.
+CC   -!- CAUTION: Lacks conserved residue(s) required for the propagation
+CC       of feature annotation. {ECO:0000256|HAMAP-Rule:MF_00456}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017354; AAU27690.1; -; Genomic_DNA.
+DR   RefSeq; WP_010947337.1; NC_002942.5.
+DR   RefSeq; YP_095637.1; NC_002942.5.
+DR   ProteinModelPortal; Q5ZV32; -.
+DR   STRING; 272624.lpg1610; -.
+DR   PaxDb; Q5ZV32; -.
+DR   EnsemblBacteria; AAU27690; AAU27690; lpg1610.
+DR   GeneID; 19833175; -.
+DR   KEGG; lpn:lpg1610; -.
+DR   PATRIC; fig|272624.6.peg.1684; -.
+DR   eggNOG; ENOG4105CGT; Bacteria.
+DR   eggNOG; COG0263; LUCA.
+DR   HOGENOM; HOG000246368; -.
+DR   KO; K00931; -.
+DR   OMA; THEIRFG; -.
+DR   UniPathway; UPA00098; UER00359.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0005524; F:ATP binding; IEA:UniProtKB-KW.
+DR   GO; GO:0004349; F:glutamate 5-kinase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0003723; F:RNA binding; IEA:InterPro.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   Gene3D; 2.30.130.10; -; 1.
+DR   Gene3D; 3.40.1160.10; -; 1.
+DR   HAMAP; MF_00456; ProB; 1.
+DR   InterPro; IPR036393; AceGlu_kinase-like_sf.
+DR   InterPro; IPR001048; Asp/Glu/Uridylate_kinase.
+DR   InterPro; IPR001057; Glu/AcGlu_kinase.
+DR   InterPro; IPR011529; Glu_5kinase.
+DR   InterPro; IPR005715; Glu_5kinase/COase_Synthase.
+DR   InterPro; IPR002478; PUA.
+DR   InterPro; IPR015947; PUA-like_sf.
+DR   InterPro; IPR036974; PUA_sf.
+DR   Pfam; PF00696; AA_kinase; 1.
+DR   Pfam; PF01472; PUA; 1.
+DR   PIRSF; PIRSF000729; GK; 1.
+DR   PRINTS; PR00474; GLU5KINASE.
+DR   SMART; SM00359; PUA; 1.
+DR   SUPFAM; SSF53633; SSF53633; 1.
+DR   SUPFAM; SSF88697; SSF88697; 1.
+DR   TIGRFAMs; TIGR01027; proB; 1.
+DR   PROSITE; PS50890; PUA; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650749};
+KW   ATP-binding {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650756};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00644466};
+KW   Kinase {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650741, ECO:0000313|EMBL:AAU27690.1};
+KW   Nucleotide-binding {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650756};
+KW   Proline biosynthesis {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650749};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Transferase {ECO:0000256|HAMAP-Rule:MF_00456,
+KW   ECO:0000256|SAAS:SAAS00650741, ECO:0000313|EMBL:AAU27690.1}.
+FT   DOMAIN      273    351       PUA. {ECO:0000259|PROSITE:PS50890}.
+FT   BINDING       6      6       ATP. {ECO:0000256|HAMAP-Rule:MF_00456}.
+FT   BINDING      46     46       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00456}.
+FT   BINDING     137    137       Substrate. {ECO:0000256|HAMAP-
+FT                                Rule:MF_00456}.
+FT   BINDING     149    149       Substrate; via amide nitrogen.
+FT                                {ECO:0000256|HAMAP-Rule:MF_00456}.
+SQ   SEQUENCE   356 AA;  39350 MW;  529772DFC08FE280 CRC64;
+     MKIIIKVGTQ SILSVDGSPI YSVLNNLVNQ IIYLKNLGHQ VILVSSGAVG SGRKIAKNSL
+     GKTYGDTVGE KQLLASIGQP ELMNLYSSLF KNENILVSQL LLTKQDFHTR QHYLNIARLL
+     TELLKHQNII PIVNENDSVA IEELMFTDND ELAGLIAAQI NADYLILLTN VDGVFTSHPN
+     DPESKLINTI DPNSGWPNVS AVKSKLGRGG MVSKLDTARK MAGLGINTVI ANVNVESIVP
+     KILNREAVGT IILASKRKSS IKRWIAFSHR TSLPSIVIND NLITLLRNGN RVMSILPIGI
+     EDFRGECKKG DLIDILNSNN EKIGVGIARY DFLRLKDYLR LQNKPAFIHY DQLHIL
+//

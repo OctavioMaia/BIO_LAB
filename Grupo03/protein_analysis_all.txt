@@ -1,0 +1,40 @@
+
+Protein Name : Gamma-glutamyl phosphate reductase 
+Protein ID : PROA_LEGPH
+EC Number : 1.2.1.41
+Protein Length : 417
+Cellular Locale : cytoplasm
+Status : Reviewed
+Biological Process : ['L-proline biosynthetic process']
+Molecular Function : ['glutamate-5-semialdehyde dehydrogenase activity', 'NADP binding']
+Function :  Catalyzes the NADPH-dependent reduction of L-glutamate 5-phosphate into L-glutamate 5-semialdehyde and phosphate. The product spontaneously undergoes cyclization to form 1-pyrroline-5- carboxylate. 
+
+Protein Name : Glutamate 5-kinase 
+Protein ID : Q5ZV32_LEGPH
+EC Number : 2.7.2.11
+Protein Length : 356
+Cellular Locale : cytoplasm
+Status : Unreviewed
+Biological Process : ['L-proline biosynthetic process']
+Molecular Function : ['ATP binding', 'glutamate 5-kinase activity', 'RNA binding']
+Function :  Catalyzes the transfer of a phosphate group to glutamate to form L-glutamate 5-phosphate. 
+
+Protein Name : Pyridoxal phosphate homeostasis protein 
+Protein ID : Q5ZTZ4_LEGPH
+EC Number : -
+Protein Length : 231
+Cellular Locale : Unavailable
+Status : Unreviewed
+Biological Process : Unavailable
+Molecular Function : Unavailable
+Function :  Pyridoxal 5'-phosphate (PLP)-binding protein, which is involved in PLP homeostasis. 
+
+Protein Name : Pyrroline-5-carboxylate reductase 
+Protein ID : Q5ZTZ3_LEGPH
+EC Number : 1.5.1.2
+Protein Length : 262
+Cellular Locale : cytoplasm
+Status : Unreviewed
+Biological Process : ['L-proline biosynthetic process']
+Molecular Function : ['pyrroline-5-carboxylate reductase activity']
+Function :  Catalyzes the reduction of 1-pyrroline-5-carboxylate (PCA) to L-proline. 

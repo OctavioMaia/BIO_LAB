@@ -86,6 +86,8 @@ def printProteinAnalysisAll():
             name, id, locale, status, fmol, bio, function,length,ec = getDataFromProt(idfasta)
             file.write("\nProtein Name : " + name)
             file.write("\nProtein ID : " + id)
+            file.write("\nEC Number : " + ec)
+            file.write("\nProtein Length : " + length)
             if locale == "":
                 aux = temp
             else:

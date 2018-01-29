@@ -3,10 +3,10 @@ from Bio import Entrez
 from Bio import SeqIO
 
 dic = dict()
-dic[0] = (1694217,1695287)
-dic[1] = (1755653,1817098)
-dic[2] = (2255112,2255900)
-dic[3] = (2478431,2479402)
+dic[0] = (1775390,1776644)
+dic[1] = (1776652,1777723)
+dic[2] = (2255111,2255900)
+dic[3] = (2478430,2479402)
 
 for k in range(0,len(dic)):
     seq_s = dic[k][0]

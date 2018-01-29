@@ -1,0 +1,98 @@
+ID   Q5ZTZ3_LEGPH            Unreviewed;       262 AA.
+AC   Q5ZTZ3;
+DT   23-NOV-2004, integrated into UniProtKB/TrEMBL.
+DT   23-NOV-2004, sequence version 1.
+DT   22-NOV-2017, entry version 83.
+DE   RecName: Full=Pyrroline-5-carboxylate reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            Short=p5C reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            Short=p5CR {ECO:0000256|HAMAP-Rule:MF_01925};
+DE            EC=1.5.1.2 {ECO:0000256|HAMAP-Rule:MF_01925};
+DE   AltName: Full=PCA reductase {ECO:0000256|HAMAP-Rule:MF_01925};
+GN   Name=proC {ECO:0000256|HAMAP-Rule:MF_01925,
+GN   ECO:0000313|EMBL:AAU28084.1};
+GN   OrderedLocusNames=lpg2015 {ECO:0000313|EMBL:AAU28084.1};
+OS   Legionella pneumophila subsp. pneumophila (strain Philadelphia 1 /
+OS   ATCC 33152 / DSM 7513).
+OC   Bacteria; Proteobacteria; Gammaproteobacteria; Legionellales;
+OC   Legionellaceae; Legionella.
+OX   NCBI_TaxID=272624 {ECO:0000313|EMBL:AAU28084.1, ECO:0000313|Proteomes:UP000000609};
+RN   [1] {ECO:0000313|EMBL:AAU28084.1, ECO:0000313|Proteomes:UP000000609}
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=Philadelphia 1 / ATCC 33152 / DSM 7513
+RC   {ECO:0000313|Proteomes:UP000000609};
+RX   PubMed=15448271; DOI=10.1126/science.1099776;
+RA   Chien M., Morozova I., Shi S., Sheng H., Chen J., Gomez S.M.,
+RA   Asamani G., Hill K., Nuara J., Feder M., Rineer J., Greenberg J.J.,
+RA   Steshenko V., Park S.H., Zhao B., Teplitskaya E., Edwards J.R.,
+RA   Pampou S., Georghiou A., Chou I.C., Iannuccilli W., Ulz M.E.,
+RA   Kim D.H., Geringer-Sameth A., Goldsberry C., Morozov P., Fischer S.G.,
+RA   Segal G., Qu X., Rzhetsky A., Zhang P., Cayanis E., De Jong P.J.,
+RA   Ju J., Kalachikov S., Shuman H.A., Russo J.J.;
+RT   "The genomic sequence of the accidental pathogen Legionella
+RT   pneumophila.";
+RL   Science 305:1966-1968(2004).
+CC   -!- FUNCTION: Catalyzes the reduction of 1-pyrroline-5-carboxylate
+CC       (PCA) to L-proline. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- CATALYTIC ACTIVITY: L-proline + NAD(P)(+) = 1-pyrroline-5-
+CC       carboxylate + NAD(P)H. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- PATHWAY: Amino-acid biosynthesis; L-proline biosynthesis; L-
+CC       proline from L-glutamate 5-semialdehyde: step 1/1.
+CC       {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- SUBCELLULAR LOCATION: Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -!- SIMILARITY: Belongs to the pyrroline-5-carboxylate reductase
+CC       family. {ECO:0000256|HAMAP-Rule:MF_01925}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; AE017354; AAU28084.1; -; Genomic_DNA.
+DR   RefSeq; WP_010947731.1; NC_002942.5.
+DR   RefSeq; YP_096031.1; NC_002942.5.
+DR   ProteinModelPortal; Q5ZTZ3; -.
+DR   STRING; 272624.lpg2015; -.
+DR   PaxDb; Q5ZTZ3; -.
+DR   EnsemblBacteria; AAU28084; AAU28084; lpg2015.
+DR   GeneID; 19833581; -.
+DR   KEGG; lpn:lpg2015; -.
+DR   PATRIC; fig|272624.6.peg.2110; -.
+DR   eggNOG; ENOG4105II7; Bacteria.
+DR   eggNOG; COG0345; LUCA.
+DR   HOGENOM; HOG000230246; -.
+DR   KO; K00286; -.
+DR   OMA; RVMTNTP; -.
+DR   UniPathway; UPA00098; UER00361.
+DR   Proteomes; UP000000609; Chromosome.
+DR   GO; GO:0005737; C:cytoplasm; IEA:UniProtKB-SubCell.
+DR   GO; GO:0004735; F:pyrroline-5-carboxylate reductase activity; IEA:UniProtKB-UniRule.
+DR   GO; GO:0055129; P:L-proline biosynthetic process; IEA:UniProtKB-UniPathway.
+DR   HAMAP; MF_01925; P5C_reductase; 1.
+DR   InterPro; IPR008927; 6-PGluconate_DH-like_C_sf.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR028939; P5C_Rdtase_cat_N.
+DR   InterPro; IPR029036; P5CR_dimer.
+DR   InterPro; IPR000304; Pyrroline-COOH_reductase.
+DR   Pfam; PF03807; F420_oxidored; 1.
+DR   Pfam; PF14748; P5CR_dimer; 1.
+DR   PIRSF; PIRSF000193; Pyrrol-5-carb_rd; 1.
+DR   SUPFAM; SSF48179; SSF48179; 1.
+DR   SUPFAM; SSF51735; SSF51735; 1.
+DR   TIGRFAMs; TIGR00112; proC; 1.
+PE   3: Inferred from homology;
+KW   Amino-acid biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Complete proteome {ECO:0000313|Proteomes:UP000000609};
+KW   Cytoplasm {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   NADP {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Oxidoreductase {ECO:0000256|HAMAP-Rule:MF_01925,
+KW   ECO:0000313|EMBL:AAU28084.1};
+KW   Proline biosynthesis {ECO:0000256|HAMAP-Rule:MF_01925};
+KW   Reference proteome {ECO:0000313|Proteomes:UP000000609}.
+FT   DOMAIN        3     91       F420_oxidored.
+FT                                {ECO:0000259|Pfam:PF03807}.
+FT   DOMAIN      155    258       P5CR_dimer. {ECO:0000259|Pfam:PF14748}.
+SQ   SEQUENCE   262 AA;  28312 MW;  E81C3F08129A2180 CRC64;
+     MNISFIGYGN MAKAIACHLQ KQNKYSLSAA SPSLSAGISK ENIRTHYDNK EVAKDADVII
+     LAVKPAQMRE VVNEINPFIS SGCLLISVAA GLSLTWFAKY CKKGQAVVRT MPNTPAIVGF
+     AATSMIANEF VNEKQKKWAE QLFSSIGITD WVKDEEDMDT LTALSGSGPA YVFLFLEAMI
+     NAGVQLGLEE TVAKHFAIQT FSGSLQLAQH SQLSLTELRK KVTSPGGTTA AALEILHGDL
+     DELIFSAMKA AKQKAHELGK VE
+//

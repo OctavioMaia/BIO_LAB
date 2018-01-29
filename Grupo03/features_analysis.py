@@ -3,19 +3,28 @@ from Bio import SeqIO
 out_cds = []
 out_gene=[]
 out_other=[]
+CDS_proteinID =[]
+CDS_geneID =[]
+CDS_function= []
 
 for k in range(0,4):
     filename = "sequence"+str(k+1)+".gb"
     record = SeqIO.read(filename, "genbank")
     for i in range(1,len(record.features)): 
-        if record.features[i].type == "CDS": 
+        if(record.features[i].type == "CDS"): 
             out_cds.append(i)
         elif (record.features[i].type == "gene"):
             out_gene.append(i)
         else:
             out_other.append(i)
         i=+1
-    
+        #get CDS info
+        for j in record.features:
+            if j.type == "CDS":
+                CDS_proteinID.append(j.qualifiers["protein_id"][0])
+                CDS_geneID.append(j.qualifiers["db_xref"][0].strip("GeneID:"))
+
+print(set(CDS_proteinID))
 
 #table processing
 f = open("ProteinTable.txt", 'r')
@@ -23,17 +32,6 @@ table=[]
 for line in f.readlines():
     table.append(line.split('\t'))
 f.close()
-
-#get CDS info
-CDS_proteinID =[]
-CDS_geneID =[]
-CDS_function= []
-for i in record.features:
-    if i.type == "CDS":
-        CDS_proteinID.append(i.qualifiers["protein_id"][0])
-        CDS_geneID.append(i.qualifiers["db_xref"][0].strip("GeneID:"))
-print(CDS_proteinID)
-
 
 #validation
 # flag = True
