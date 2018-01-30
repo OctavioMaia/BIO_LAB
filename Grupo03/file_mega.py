@@ -11,7 +11,7 @@ from Bio import SeqIO
 
 
 
-for b in range(1,2):
+for b in range(1,5):
     file='blast'+str(b)+'.xml'
     resultado=open(file,'r')
     records=NCBIXML.parse(resultado)
